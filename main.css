@@ -1,0 +1,40 @@
+body{
+    background-color: coral;
+}
+.container{
+
+    text-align: center;
+    margin-top: 200px;
+
+}
+.white-keys kbd{
+    display: inline-block;
+    border: solid;
+    margin-left: -5px;
+    padding: 100px 30px;
+    background-color: white;
+
+}
+.black-keys kbd{
+
+    display: inline-block;
+    border: solid;
+    border-color: black;
+    margin-left: 30px;
+    color: white;
+    padding: 50px 15px;
+    background-color: black;
+
+
+}
+.black-keys {
+    text-align: center;
+    z-index: 2;
+    position: fixed;
+    top: 200px;
+    left: 480px;
+}
+.key{
+    position: relative;
+    left: 65px;
+}
